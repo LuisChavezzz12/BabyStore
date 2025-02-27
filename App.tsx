@@ -4,12 +4,13 @@ import DetalleProducto from "./app/screens/DetalleProductos";
 import Inicio from "./app/screens/Inicio";
 import Registro from "./app/screens/Registro";
 import LoginCuna from "./app/screens/LoginCuna";
+import Monitoreo from "./app/screens/Monitoreo";
 
 
 export default function App() {
   return (
     <View style={estilos.container}>
-      <LoginCuna />
+      <Monitoreo />
     </View>
   )
 }
