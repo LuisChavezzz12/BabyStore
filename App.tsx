@@ -5,12 +5,13 @@ import Inicio from "./app/screens/Inicio";
 import Registro from "./app/screens/Registro";
 import LoginCuna from "./app/screens/LoginCuna";
 import Monitoreo from "./app/screens/Monitoreo";
+import MonitoreoMAC from "./app/screens/MonitoreoMAC";
 
 
 export default function App() {
   return (
     <View style={estilos.container}>
-      <Monitoreo />
+      <MonitoreoMAC />
     </View>
   )
 }
